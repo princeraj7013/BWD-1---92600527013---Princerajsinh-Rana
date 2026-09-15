@@ -1,0 +1,19 @@
+ .box {
+        width: 100px; 
+        height: 100px;
+        background-color: red;
+        animation-name: boxanimation;
+        animation-duration: 10s;
+}
+@keyframes boxanimation{
+    10%{background-color: aqua;}
+    20%{background-color: blue;}
+    30%{background-color: aquamarine;}
+    40%{background-color: darkgreen;}
+    50%{background-color: rgb(109, 96, 168);}
+    60%{background-color: rgb(173, 86, 216);}
+    70%{background-color: rgb(188, 29, 29);}
+    80%{background-color: rgb(176, 235, 27);}
+    90%{background-color: yellow;}
+    100%{background-color: darkorchid;}
+}
