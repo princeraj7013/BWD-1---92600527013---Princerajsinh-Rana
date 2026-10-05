@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3x3 Interactive Color Table</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+      text-align:center;
+    }
+
+    td {
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      vertical-align: middle;
+      border: 2px solid #333;
+      font-weight: bold;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      cursor: pointer;
+    } 
+
+    td.red:hover {
+      background-color: red;
+      color: white;
+    }
+
+    td.green:hover {
+      background-color: green;
+      color: white;
+    }
+
+    td.blue:hover {
+      background-color: blue;
+      color: white;
+    }
+
+    td.yellow:hover {
+      background-color: yellow;
+      color: black;
+    }
+
+    td.orange:hover {
+      background-color: orange;
+      color: white;
+    }
+
+    td.purple:hover {
+      background-color: purple;
+      color: white;
+    }
+
+    td.pink:hover {
+      background-color: pink;
+      color: black;
+    }
+
+    td.cyan:hover {
+      background-color: cyan;
+      color: black;
+    }
+
+    td.gray:hover {
+      background-color: gray;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <td class="red">1</td>
+      <td class="green">2</td>
+      <td class="blue">3</td>
+    </tr>
+    <tr>
+      <td class="yellow">4</td>
+      <td class="orange">5</td>
+      <td class="purple">6</td>
+    </tr>
+    <tr>
+      <td class="pink">7</td>
+      <td class="cyan">8</td>
+      <td class="gray">9</td>
+    </tr>
+  </table>
+
+</body>
+</html>
